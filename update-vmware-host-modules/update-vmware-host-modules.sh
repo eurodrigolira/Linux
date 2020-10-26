@@ -39,3 +39,5 @@ else
 	exit 0
 fi
 #
+systemctl restart vmware-USBArbitrator.service
+systemctl restart vmware.service
